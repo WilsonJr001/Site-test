@@ -1,0 +1,38 @@
+h1, h2, p {
+    text-align: center;
+}
+
+h2{
+    display: block;
+}
+
+button{
+    width: 100px;
+    height: 25px;
+}
+
+.container {
+    background-color: lightgreen;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+}
+
+.Resp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 90%;
+    
+}
